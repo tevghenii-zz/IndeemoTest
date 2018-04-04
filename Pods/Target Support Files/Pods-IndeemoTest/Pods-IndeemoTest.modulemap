@@ -1,0 +1,6 @@
+framework module Pods_IndeemoTest {
+  umbrella header "Pods-IndeemoTest-umbrella.h"
+
+  export *
+  module * { export * }
+}

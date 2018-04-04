@@ -1,0 +1,439 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9D94970F8EB7B8A8D94DED21 /* Pods_IndeemoTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 769551AD77A64FC043C5E6B1 /* Pods_IndeemoTest.framework */; };
+		B722F49D2073B805008A767C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B722F49C2073B805008A767C /* AppDelegate.swift */; };
+		B722F4A22073B805008A767C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B722F4A02073B805008A767C /* Main.storyboard */; };
+		B722F4A52073B806008A767C /* IndeemoTest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B722F4A32073B806008A767C /* IndeemoTest.xcdatamodeld */; };
+		B722F4A72073B806008A767C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B722F4A62073B806008A767C /* Assets.xcassets */; };
+		B722F4AA2073B806008A767C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B722F4A82073B806008A767C /* LaunchScreen.storyboard */; };
+		B722F4B22073DE8C008A767C /* FeedTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B722F4B12073DE8C008A767C /* FeedTableViewController.swift */; };
+		B722F4C12074A8EA008A767C /* FeedDetailsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B722F4C02074A8E8008A767C /* FeedDetailsTableViewController.swift */; };
+		B722F4C72074B09E008A767C /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B722F4C62074B09E008A767C /* CoreDataManager.swift */; };
+		B722F4C92074B59E008A767C /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = B722F4C82074B59E008A767C /* API.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3C9E46DE45E610CF50E2C4E1 /* Pods-IndeemoTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IndeemoTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IndeemoTest/Pods-IndeemoTest.debug.xcconfig"; sourceTree = "<group>"; };
+		769551AD77A64FC043C5E6B1 /* Pods_IndeemoTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IndeemoTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		842B1B167EB3A97FA43EA0C9 /* Pods-IndeemoTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IndeemoTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-IndeemoTest/Pods-IndeemoTest.release.xcconfig"; sourceTree = "<group>"; };
+		B722F4992073B805008A767C /* IndeemoTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IndeemoTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B722F49C2073B805008A767C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B722F4A12073B805008A767C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B722F4A42073B806008A767C /* IndeemoTest.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = IndeemoTest.xcdatamodel; sourceTree = "<group>"; };
+		B722F4A62073B806008A767C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B722F4A92073B806008A767C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B722F4AB2073B806008A767C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B722F4B12073DE8C008A767C /* FeedTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedTableViewController.swift; sourceTree = "<group>"; };
+		B722F4C02074A8E8008A767C /* FeedDetailsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedDetailsTableViewController.swift; sourceTree = "<group>"; };
+		B722F4C62074B09E008A767C /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
+		B722F4C82074B59E008A767C /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B722F4962073B804008A767C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D94970F8EB7B8A8D94DED21 /* Pods_IndeemoTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		353371A574A1EA3C10F9FDD2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3C9E46DE45E610CF50E2C4E1 /* Pods-IndeemoTest.debug.xcconfig */,
+				842B1B167EB3A97FA43EA0C9 /* Pods-IndeemoTest.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B6F0CCB87C1AB140194102FB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				769551AD77A64FC043C5E6B1 /* Pods_IndeemoTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B722F4902073B802008A767C = {
+			isa = PBXGroup;
+			children = (
+				B722F49B2073B805008A767C /* IndeemoTest */,
+				B722F49A2073B805008A767C /* Products */,
+				353371A574A1EA3C10F9FDD2 /* Pods */,
+				B6F0CCB87C1AB140194102FB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B722F49A2073B805008A767C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B722F4992073B805008A767C /* IndeemoTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B722F49B2073B805008A767C /* IndeemoTest */ = {
+			isa = PBXGroup;
+			children = (
+				B722F49C2073B805008A767C /* AppDelegate.swift */,
+				B722F4A02073B805008A767C /* Main.storyboard */,
+				B722F4A62073B806008A767C /* Assets.xcassets */,
+				B722F4A82073B806008A767C /* LaunchScreen.storyboard */,
+				B722F4AB2073B806008A767C /* Info.plist */,
+				B722F4A32073B806008A767C /* IndeemoTest.xcdatamodeld */,
+				B722F4B12073DE8C008A767C /* FeedTableViewController.swift */,
+				B722F4C02074A8E8008A767C /* FeedDetailsTableViewController.swift */,
+				B722F4C62074B09E008A767C /* CoreDataManager.swift */,
+				B722F4C82074B59E008A767C /* API.swift */,
+			);
+			path = IndeemoTest;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B722F4982073B804008A767C /* IndeemoTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B722F4AE2073B806008A767C /* Build configuration list for PBXNativeTarget "IndeemoTest" */;
+			buildPhases = (
+				FFAC9ABE13CC5A1D0DB978F0 /* [CP] Check Pods Manifest.lock */,
+				B722F4952073B804008A767C /* Sources */,
+				B722F4962073B804008A767C /* Frameworks */,
+				B722F4972073B804008A767C /* Resources */,
+				393F86B9CCC91C59D1469E01 /* [CP] Embed Pods Frameworks */,
+				CAB30108AC69AEAC9B80225C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IndeemoTest;
+			productName = IndeemoTest;
+			productReference = B722F4992073B805008A767C /* IndeemoTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B722F4912073B803008A767C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Todorov Evghenii";
+				TargetAttributes = {
+					B722F4982073B804008A767C = {
+						CreatedOnToolsVersion = 9.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = B722F4942073B803008A767C /* Build configuration list for PBXProject "IndeemoTest" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B722F4902073B802008A767C;
+			productRefGroup = B722F49A2073B805008A767C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B722F4982073B804008A767C /* IndeemoTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B722F4972073B804008A767C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B722F4AA2073B806008A767C /* LaunchScreen.storyboard in Resources */,
+				B722F4A72073B806008A767C /* Assets.xcassets in Resources */,
+				B722F4A22073B805008A767C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		393F86B9CCC91C59D1469E01 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-IndeemoTest/Pods-IndeemoTest-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IndeemoTest/Pods-IndeemoTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CAB30108AC69AEAC9B80225C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IndeemoTest/Pods-IndeemoTest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FFAC9ABE13CC5A1D0DB978F0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IndeemoTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B722F4952073B804008A767C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B722F4C12074A8EA008A767C /* FeedDetailsTableViewController.swift in Sources */,
+				B722F4A52073B806008A767C /* IndeemoTest.xcdatamodeld in Sources */,
+				B722F49D2073B805008A767C /* AppDelegate.swift in Sources */,
+				B722F4C72074B09E008A767C /* CoreDataManager.swift in Sources */,
+				B722F4C92074B59E008A767C /* API.swift in Sources */,
+				B722F4B22073DE8C008A767C /* FeedTableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B722F4A02073B805008A767C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B722F4A12073B805008A767C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B722F4A82073B806008A767C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B722F4A92073B806008A767C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B722F4AC2073B806008A767C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B722F4AD2073B806008A767C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B722F4AF2073B806008A767C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C9E46DE45E610CF50E2C4E1 /* Pods-IndeemoTest.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4U4SJJ45RY;
+				INFOPLIST_FILE = IndeemoTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tevghenii.IndeemoTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B722F4B02073B806008A767C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 842B1B167EB3A97FA43EA0C9 /* Pods-IndeemoTest.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4U4SJJ45RY;
+				INFOPLIST_FILE = IndeemoTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.tevghenii.IndeemoTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B722F4942073B803008A767C /* Build configuration list for PBXProject "IndeemoTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B722F4AC2073B806008A767C /* Debug */,
+				B722F4AD2073B806008A767C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B722F4AE2073B806008A767C /* Build configuration list for PBXNativeTarget "IndeemoTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B722F4AF2073B806008A767C /* Debug */,
+				B722F4B02073B806008A767C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B722F4A32073B806008A767C /* IndeemoTest.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B722F4A42073B806008A767C /* IndeemoTest.xcdatamodel */,
+			);
+			currentVersion = B722F4A42073B806008A767C /* IndeemoTest.xcdatamodel */;
+			path = IndeemoTest.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B722F4912073B803008A767C /* Project object */;
+}
